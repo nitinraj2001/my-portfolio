@@ -1,9 +1,9 @@
 import { ContactComponent } from './portfolio/contact/contact.component';
 import { SkillsComponent } from './portfolio/skills/skills.component';
 import { ProjectComponent } from './portfolio/project/project.component';
-import { HomeComponent } from './../../../customer-management/src/app/components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './portfolio/home/home.component';
 
 
 const routes: Routes = [
