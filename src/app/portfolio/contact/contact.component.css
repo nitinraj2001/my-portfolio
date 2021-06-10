@@ -1,0 +1,124 @@
+#container {
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    width: 100%;
+}
+
+#profilecontainer {
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 38%;
+    box-shadow: 0 0 25px black
+}
+
+#part1 {
+    width: 350px;
+    height: 300px;
+    background-color: #FF9299;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+
+.hr {
+    border: 1px solid black;
+    margin-bottom: -7px
+}
+
+#dropdown {
+    width: 40px;
+    height: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    top: -45px;
+    left: 15px
+}
+
+#person {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    top: 50px;
+    left: 21.5%;
+    cursor: pointer
+}
+
+#name {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 55px;
+    text-align: center;
+    font-size: 20px;
+    color: white
+}
+
+.skill {
+    position: relative;
+    top: 45px;
+    left: 24.5%;
+    color: gainsboro;
+    background-color: transparent;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px
+}
+
+#graphic,
+#ui {
+    border-left: 1px solid gray
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-github,
+.fa-linkedin-in{
+    position: relative;
+    top: 75px;
+    left: -20.5%;
+    color: #F1F3F5;
+    margin-left: 15px
+}
+
+.fa-facebook:hover {
+    color: #3B579D
+}
+
+.fa-twitter:hover {
+    color: #2CAAE1
+}
+
+.fa-instagram:hover {
+    color: #C22660
+}
+.fa-github:hover {
+    color: black
+}
+
+.fa-linkedin-in:hover {
+    color:blueviolet
+}
+
+#follow {
+    position: relative;
+    top: 100px;
+    left: 29%;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    box-shadow: 0 0 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #FF9299
+}
